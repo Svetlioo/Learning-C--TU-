@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-// int initialize(int masiv[][], int x, int y) {
-// }
-
 int main() {
     int x,y;
     printf("Enter x: ");
@@ -21,7 +18,6 @@ int main() {
       }
    }
 
-  printf("Two Dimensional masivay elements:\n");
    for(i=0; i<x; i++) {
       for(j=0;j<y;j++) {
          printf("%d ", masiv[i][j]);
@@ -37,7 +33,7 @@ int main() {
    }
     
     int N = x;
-      // извеждане на главния диагонал
+    // извеждане на главния диагонал
     printf("Главен диагонал: ");
     for(i = 0; i < N; i++) {
         printf("%d ", masiv[i][i]);
