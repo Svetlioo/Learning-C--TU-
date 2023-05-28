@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#define LEN 31
+#define LEN 50
 #define CH_LEN 8
 
 typedef struct {
