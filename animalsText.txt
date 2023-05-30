@@ -16,3 +16,6 @@ dgetobvratmy,31.00
 djamaikata,30.00
 djami,900.00
 dgeto,30.00
+djamaikata,33.00
+djamito,40.00
+dgeto,20.00
