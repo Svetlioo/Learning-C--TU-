@@ -29,3 +29,9 @@ kras,30.00
 djamito,2.00
 s,2.00
 da,2.00
+djamito,50.00
+djamaikata,30.00
+dgeto,20.00
+djamito,30.00
+dgeto,49.90
+nadgetobrat my,20.00

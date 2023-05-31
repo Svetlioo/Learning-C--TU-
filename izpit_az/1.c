@@ -59,7 +59,7 @@ void readBinary(float price) {
     TPet pet;
     unsigned len;
     bool isFirst = true;
-    if ((f=fopen("animals.bin", "rb")) == NULL) {
+    if ((f=fopen("animalsBin.bin", "rb")) == NULL) {
         perror("Opening bin error: ");
         exit(1);
     }
@@ -133,6 +133,8 @@ int main() {
         pets[i] = inputPet();
     }
     PrintPetsByPrice(pets, size, 30);
+    writeToBin(pets,size);
+    readBinary(30);
     
     return 0;
 }
