@@ -34,3 +34,7 @@
 7;asdalsd;asdlasdl;30.00;1
 12;dasl;kdkaskd;dasklda
 ;10.00;1
+7;djamito;a12345be;30.00;1
+4;dweq;a123453v;20.00;1
+10;jaspodkjas;50
+;2.00;30

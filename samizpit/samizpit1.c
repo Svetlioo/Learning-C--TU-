@@ -26,8 +26,8 @@ TPet inputPet(void) {
     printf("Name: ");
     fgets(pet.name, SIZE, stdin);
     fflush(stdin);
-    // printf("str len: %lu\n", strlen(pet.name));
     pet.name[strlen(pet.name)-1] = '\0';
+    printf("%s", pet.name);
     printf("Chip: ");
     fgets(pet.chip, CH_SIZE, stdin);
     fflush(stdin);

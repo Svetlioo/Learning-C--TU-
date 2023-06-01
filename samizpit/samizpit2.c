@@ -53,7 +53,6 @@ int length = sizeof(cars)/sizeof(cars[0]);
 
 
 void nadSrednoAritm(TCar cars[]) {
-   
     float srednoaritm;
     for (int i = 0; i < length; i++) {
         srednoaritm += cars[i].price;
